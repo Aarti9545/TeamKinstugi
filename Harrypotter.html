@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+              <meta charset="UTF-8">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link rel="stylesheet" href="style.css">
+              <title>Document</title>
+</head>
+<body>
+              
+<h2></h2>
+
+<div class="row">
+  <div class="column" style="background-color:rgb(5, 65, 114);">
+    <center><h1 class="h1">Danial Redcliffe</h1></center>
+   <center><img src="Harry2.jpg" alt=""class="img"></center> <br><br><br><br>
+   <center><Button class="demo"onclick="window.location.href = 'http://127.0.0.1:5500/Anime.html';">Home</Button><br><br>
+              <Button class="demo"onclick="window.location.href = 'http://127.0.0.1:5500/Movies.html';">Movies</Button><br><br>
+              
+              <button class="demo" 
+              onclick="window.location.href = 'http://127.0.0.1:5500/Harrypotter.html';">
+                  Harrypotter 
+              </button> 
+              <br><br>
+ 
+    <p></p>
+  </div><hr><HR><hr><HR>
+  <div class="column1" style="background-color:#f7dfdc ;">
+              
+
+              <center><h1><span>Harry Potter</span> 
+                           
+                        </h1>
+              </center>
+              <h3>Harry Potter is a film series based on the eponymous novels by J. K. Rowling. The series is produced and distributed by Warner Bros. Pictures</h3>
+           
+           <li style="font-size: 20px;"> <b> (2001)consists of eight fantasy films, beginning with Harry Potter and the Philosopher's Stone 
+</b></li>   
+<li style="font-size: 20px;"> <b>(2002) Harry Potter and the
+              Chamber of Secretse 
+</b></li>  
+<li style="font-size: 20px;"> <b>(2004)	Harry Potter and the
+              Prisoner of Azkaban
+</b></li>  
+<li style="font-size: 20px;"> <b> (2005)	Harry Potter and the
+              Goblet of Fire
+</b></li>  
+<li style="font-size: 20px;"> <b> (2007)	Harry Potter and the
+              Order of the Phoenix
+</b></li>  <li style="font-size: 20px;"> <b> (2009)	Harry Potter and the
+              Half-Blood Prince
+</b></li>  
+</li>  <li style="font-size: 20px;"> <b> (2010)Harry Potter and the
+              Deathly Hallows – Part 1
+</b></li> 
+</li>  <li style="font-size: 20px;"> <b> (2011)Harry Potter and the
+              Deathly Hallows – Part 2
+</b></li> 
+<H1>There Eight parts of this movie</H1>
+<a href="http://127.0.0.1:5500/New.html">Click here</a>
+
+              <br>
+              
+<!-- Header -->
+<div class="header" id="myHeader">
+           
+              <button class="btn" onclick="one()">1</button>
+              <button class="btn active" onclick="two()">2</button>
+              <button class="btn" onclick="four()">4</button>
+            </div>
+            
+            <!-- Photo Grid -->
+            <div class="row"> 
+              <div class="column">
+                <img src="s1.jpeg" style="width:100%">
+                <img src="s2.jpeg" style="width:100%">
+                <img src="s3.jpeg" style="width:100%">
+                <img src="s4.jpeg" style="width:100%">
+                <img src="s5.jpeg" style="width:100%">
+                <img src="s6.jpeg" style="width:100%">
+                <img src="s71.jpeg" style="width:100%">
+              </div>
+              <div class="column">
+                <img src="s72.jpeg" style="width:100%">
+                <img src="Harry1.jpg" style="width:100%">
+                <img src="Harry2.jpg" style="width:100%">
+                <img src="Harry3.jpeg" style="width:100%">
+                <img src="harry4.jpeg" style="width:100%">
+                <img src="Harry5.jpg" style="width:100%">
+              </div>  
+              <div class="column">
+                <img src="Harry6.jpg" style="width:100%">
+                <img src="Harry1.jpg" style="width:100%">
+                <img src="s1.jpeg" style="width:100%">
+                <img src="s2.jpeg" style="width:100%">
+                <img src="s3.jpeg" style="width:100%">
+                <img src="s4.jpeg" style="width:100%">
+                <img src="s5.jpeg" style="width:100%">
+              </div>
+              <div class="column">
+                <img src="s6.jpeg" style="width:100%">
+                <img src="s71.jpeg" style="width:100%">
+                <img src="s72.jpeg" style="width:100%">
+                <img src="Harry1.jpg" style="width:100%">
+                <img src="Harry2.jpg" style="width:100%">
+                <img src="Harry3.jpeg" style="width:100%">
+              </div>
+            </div>
+            
+          
+           
+
+
+</div>
+</div>
+<script>var ml4 = {};
+              ml4.opacityIn = [0,1];
+              ml4.scaleIn = [0.2, 1];
+              ml4.scaleOut = 3;
+              ml4.durationIn = 800;
+              ml4.durationOut = 600;
+              ml4.delay = 500;
+              
+              anime.timeline({loop: true})
+                .add({
+                  targets: '.ml4 .letters-1',
+                  opacity: ml4.opacityIn,
+                  scale: ml4.scaleIn,
+                  duration: ml4.durationIn
+                }).add({
+                  targets: '.ml4 .letters-1',
+                  opacity: 0,
+                  scale: ml4.scaleOut,
+                  duration: ml4.durationOut,
+                  easing: "easeInExpo",
+                  delay: ml4.delay
+                }).add({
+                  targets: '.ml4 .letters-2',
+                  opacity: ml4.opacityIn,
+                  scale: ml4.scaleIn,
+                  duration: ml4.durationIn
+                }).add({
+                  targets: '.ml4 .letters-2',
+                  opacity: 0,
+                  scale: ml4.scaleOut,
+                  duration: ml4.durationOut,
+                  easing: "easeInExpo",
+                  delay: ml4.delay
+                }).add({
+                  targets: '.ml4 .letters-3',
+                  opacity: ml4.opacityIn,
+                  scale: ml4.scaleIn,
+                  duration: ml4.durationIn
+                }).add({
+                  targets: '.ml4 .letters-3',
+                  opacity: 0,
+                  scale: ml4.scaleOut,
+                  duration: ml4.durationOut,
+                  easing: "easeInExpo",
+                  delay: ml4.delay
+                }).add({
+                  targets: '.ml4',
+                  opacity: 0,
+                  duration: 500,
+                  delay: 500
+                });</script>
+                <script>
+                            let slideIndex = 1;
+                            showSlides(slideIndex);
+                            
+                            function plusSlides(n) {
+                              showSlides(slideIndex += n);
+                            }
+                            
+                            function currentSlide(n) {
+                              showSlides(slideIndex = n);
+                            }
+                            
+                            function showSlides(n) {
+                              let i;
+                              let slides = document.getElementsByClassName("mySlides");
+                              let dots = document.getElementsByClassName("dot");
+                              if (n > slides.length) {slideIndex = 1}    
+                              if (n < 1) {slideIndex = slides.length}
+                              for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";  
+                              }
+                              for (i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                              }
+                              slides[slideIndex-1].style.display = "block";  
+                              dots[slideIndex-1].className += " active";
+                            }
+                            </script>
+                              <script>
+                                          // Get the elements with class="column"
+                                          var elements = document.getElementsByClassName("column");
+                                          
+                                          // Declare a loop variable
+                                          var i;
+                                          
+                                          // Full-width images
+                                          function one() {
+                                              for (i = 0; i < elements.length; i++) {
+                                              elements[i].style.msFlex = "100%";  // IE10
+                                              elements[i].style.flex = "100%";
+                                            }
+                                          }
+                                          
+                                          // Two images side by side
+                                          function two() {
+                                            for (i = 0; i < elements.length; i++) {
+                                              elements[i].style.msFlex = "50%";  // IE10
+                                              elements[i].style.flex = "50%";
+                                            }
+                                          }
+                                          
+                                          // Four images side by side
+                                          function four() {
+                                            for (i = 0; i < elements.length; i++) {
+                                              elements[i].style.msFlex = "25%";  // IE10
+                                              elements[i].style.flex = "25%";
+                                            }
+                                          }
+                                          
+                                          // Add active class to the current button (highlight it)
+                                          var header = document.getElementById("myHeader");
+                                          var btns = header.getElementsByClassName("btn");
+                                          for (var i = 0; i < btns.length; i++) {
+                                            btns[i].addEventListener("click", function() {
+                                              var current = document.getElementsByClassName("active");
+                                              current[0].className = current[0].className.replace(" active", "");
+                                              this.className += " active";
+                                            });
+                                          }
+                                          </script>
+</body>
+</html>

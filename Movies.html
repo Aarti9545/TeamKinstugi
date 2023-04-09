@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Image Overlay</title>
+    <style>
+        body {
+            text-align: center;
+            /* background-color:lightskyblue; */
+        }
+
+        h1 {
+            color:whitesmoke;
+        }
+          
+        .container img {
+            width: 250px;
+            height: 250px;
+        }
+          
+        .container {
+            position: relative;
+            width: 400px;
+            height: auto;
+        }
+          
+        .overlay {
+            position: absolute;
+            transition: all 0.3s ease;
+            opacity: 0;
+            background-color: #9bcd9b;
+        }
+          
+        .container:hover .overlay {
+            opacity: 0.3;
+            -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+        }
+          
+        .overlayFade {
+            height: 250px;
+            width: 250px;
+            top: 0;
+            left: 75px;
+            background-color: grey;
+        }
+       .button
+       {
+        background-color: aliceblue;
+        text-align: center;
+        width: 50%;
+        border-radius: 9px;
+        padding: 10px;
+        margin-left: 10px;
+        
+       }
+       .button:hover
+       {
+        background-color: lightsteelblue;
+        font-display:white;
+       }
+    </style>
+</head>
+  
+<body style="background-image: url('https://tse1.mm.bing.net/th?id=OIP.5aiL2lxIDIUtpdOIWnyAeAHaEy&pid=Api&P=0');">
+   <center>
+   
+    <div class="container">
+        <h1 class="title">
+      THE TAILOR PANAMA
+    </h1>
+        <div class="container">
+           
+            <img src=
+"https://tse2.mm.bing.net/th?id=OIP.sjmQ5gcJcEQj-QfgCFTPYwHaJ1&pid=Api&P=0" 
+                 class="image">
+                 <h1 class="title">
+                    MY BOY JACK
+                  </h1>
+                  <!-- <div class="container"> -->
+                
+                 <img src=
+                 "https://tse4.mm.bing.net/th?id=OIP.HdCS9kDFWXQENFesILamOgDEEs&pid=Api&P=0" 
+                                  class="image">
+                              
+                                  <h1 class="title">
+                                   THE BLACK WOMEN
+                                  </h1>
+                                  <img src=
+                 "https://tse1.mm.bing.net/th?id=OIP.ZG63rvZ9l7i4wqY6y0pqGwHaFi&pid=Api&P=0" 
+                                  class="image">
+                                  <h1 class="title">
+                                  SWISS ARMYMAN
+                                  </h1>
+                                  <img src=
+                 "https://tse1.mm.bing.net/th?id=OIP.Vzj5fGjeuMyhk157Z8E2eAHaK-&pid=Api&P=0" 
+                                  class="image">
+                                  
+            <div class="overlay overlayFade"></div>
+        </div>
+        </div>
+    </center>
+
+  
+
+</body>
+</html>
